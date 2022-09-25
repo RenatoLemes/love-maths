@@ -50,7 +50,7 @@ function checkAnswer() {
     if (isCorrect) {
         alert("Hey! You got it right! :D");
     } else {
-        alert(`Awwww.... your answered ${userAnswer}. The correct answer was ${calculatedAnswer[0]}!`);
+        alert(`Awwww.... your answered ${userAnswer}. The correct answer was ${calculatedAnswer  [0]}!`);
     }
 
     runGame(calculatedAnswer[1]);
